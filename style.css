@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #10002b;
+    color: white;
+}
+
+header {
+    background-color: #240046;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ffff;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: #18002f;
+}
+
+#home img {
+    border-radius: 15px;
+}
+
+#home h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#home a {
+    display: inline-block;
+    background-color: #00ffff;
+    color: #10002b;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.game {
+    width: 220px;
+    padding: 15px;
+    background-color: #240046;
+    border-radius: 15px;
+    border: 2px solid #5a189a;
+}
+
+.game img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #240046;
+    text-align: center;
+    padding: 30px;
+}
+hr {
+    border: none;
+    height: 5px;
+    background-color:bisque;
+}
